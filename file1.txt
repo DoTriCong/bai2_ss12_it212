@@ -1,0 +1,109 @@
+# VAI TRÒ
+
+Hãy đóng vai một Senior Business Analyst có hơn 10 năm kinh nghiệm trong lĩnh vực FinTech, Ngân hàng số và viết tài liệu Software Requirements Specification (SRS) theo chuẩn IEEE 830.
+
+Nhiệm vụ của bạn là xây dựng tài liệu Đặc tả yêu cầu phần mềm (SRS) cho hệ thống mở tài khoản trực tuyến bằng eKYC của ABC Bank.
+
+Dưới đây là thông tin nghiệp vụ:
+
+- Khách hàng tải ứng dụng ngân hàng.
+- Đăng ký tài khoản.
+- Chụp mặt trước và mặt sau CCCD.
+- Hệ thống OCR đọc thông tin trên CCCD.
+- Khách hàng quét khuôn mặt.
+- Hệ thống thực hiện Liveness Check.
+- Hệ thống so khớp khuôn mặt với ảnh trên CCCD.
+- Kiểm tra tính hợp lệ của dữ liệu.
+- Nếu hợp lệ, hệ thống tự động tạo tài khoản ngân hàng.
+- Gửi thông báo cho khách hàng.
+
+Mục tiêu của ngân hàng là "Zero Manual Operation", giảm tối đa sự can thiệp của nhân viên.
+
+======================================
+
+Hãy tạo tài liệu SRS theo đúng cấu trúc sau:
+
+# PHẦN 1. INTRODUCTION
+
+Bao gồm:
+
+- Purpose (Mục đích tài liệu)
+- Scope (Phạm vi hệ thống)
+- Definitions (Định nghĩa)
+- Acronyms (Các từ viết tắt như eKYC, OCR, API...)
+- References (Tài liệu tham khảo)
+
+======================================
+
+# PHẦN 2. OVERALL DESCRIPTION
+
+Bao gồm:
+
+- Product Perspective
+- Product Functions
+- User Classes and Characteristics
+- Operating Environment
+- Design Constraints
+- Assumptions
+
+======================================
+
+# PHẦN 3. SPECIFIC FUNCTIONAL REQUIREMENTS
+
+Mô tả chi tiết từng chức năng:
+
+1. Đăng ký tài khoản
+
+2. Upload CCCD
+
+3. OCR đọc dữ liệu
+
+4. Xác thực khuôn mặt
+
+5. Liveness Check
+
+6. Kiểm tra dữ liệu
+
+7. Tạo tài khoản
+
+8. Gửi thông báo
+
+Mỗi chức năng cần có:
+
+- Requirement ID
+- Tên chức năng
+- Mô tả
+- Đầu vào
+- Đầu ra
+- Quy tắc nghiệp vụ
+- Luồng xử lý
+- Điều kiện lỗi
+
+======================================
+
+# PHẦN 4. NON-FUNCTIONAL REQUIREMENTS
+
+Bao gồm:
+
+- Security
+- Performance
+- Availability
+- Reliability
+- Scalability
+- Logging
+- Audit
+- Maintainability
+- Compliance
+
+======================================
+
+# PHẦN 5. VISUAL DIAGRAM
+
+Sinh mã Mermaid cho:
+
+- Use Case Diagram
+- Activity Diagram
+
+======================================
+
+Yêu cầu trình bày chuyên nghiệp bằng Markdown, có tiêu đề, bảng biểu rõ ràng để có thể chuyển sang Word hoặc PDF.
